@@ -23,9 +23,12 @@ btn.addEventListener('click', (e)=> {
     setTimeout(() =>{
         frontContainer.classList.add('make-it-hide');
     }, 3000);
+    setTimeout(()=>{
+        mainContainer.classList.add('fade-in-main-container');
+    },1000);
     setTimeout(() => {
         mainContainer.style.backgroundColor = '#f0134d';
-    }, 3000);
+    }, 5000);
     setTimeout(() => {
         superFrontContainer.style.display = 'none';    
     }, 1000);

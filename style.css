@@ -21,7 +21,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    animation: fade-in 10s ease 2s;
     will-change: background-color;
     text-align: center;
     color: white;
@@ -136,6 +135,10 @@ i {
     animation: fade-out 1s ease 0.5s;
 }
 
+.fade-in-main-container {
+    animation: fade-in 5s ease;
+}
+
 @keyframes fade-out {
     0%{
         opacity: 1;
@@ -170,7 +173,7 @@ i {
     }
     100% {
         opacity: 1;
-        background-color: #f0134d;
+        background-color: #fa1f5a;
     }
 }
 
