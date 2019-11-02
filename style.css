@@ -205,9 +205,6 @@ i {
         padding: 2rem;
         font-size: 1.5rem;
     }
-    .front-container {
-      flex-direction: column;
-    }
 
     i {
         font-size: 7rem;
